@@ -1,4 +1,7 @@
 # ComicFlux
+
+![63397106-7fe3-4be9-a6df-9398eff755bb](https://github.com/user-attachments/assets/8c01c246-14e5-44d0-9413-367343c69cf3)
+
 Read comics (.cbz, .rar, .zip) with the click of a button.
 
 **HOW TO USE**
