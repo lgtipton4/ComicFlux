@@ -57,10 +57,10 @@ class MainWindow(QMainWindow):
             # QWheelEvent.angleDelta returns QPoint object (a point in the plane), so we need to get it's y value, an int, for the comparison
             deltaY = QWheelEvent.angleDelta(event).y()
             # Scroll up since angleDelta is positive ( positive is away from user; negative is towards user )
-            if deltaY > 0:
+            if deltaY > 0 and self.counter >= 1:
                 self.counter -= 1
                 self.query_image()
-            elif deltaY < 0:
+            elif deltaY < 0 and self.counter < self.image_count-1:
                 self.counter += 1
                 self.query_image()
             
